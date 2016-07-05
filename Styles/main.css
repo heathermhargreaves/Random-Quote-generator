@@ -1,0 +1,125 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat|Catamaran);
+
+body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.main-container {
+  height: 100;
+  width: 80%;
+  background: white;
+  display: flex
+  align-items: center;
+  justify-content: space-around;
+}
+
+.quote {
+  height: 70%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+/* button styling */
+.btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.btn {
+  height: 60px;
+  width: 185px;
+  font-family: 'Catamaran', sans-serif;
+  border-radius: 5px;
+  border: 2px #26767F solid;
+  font-size: 30px;
+  background: white;
+  color: #26767F;
+  cursor: pointer;
+  font-weight: bold;
+
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.btn:hover {
+  background: #26767F;
+  color: white;
+  font-weight: normal;
+  border: 2px solid #26767F;
+}
+
+/*gets rid of blue outline when clicked in Chrome*/
+.btn:focus {
+  outline:0;
+}
+
+.quote-box {
+  border-radius:3px;
+  position:relative;
+  margin:8% auto auto auto;
+  width:450px;
+  padding:40px 50px;
+  display:table;
+  background-color:#fff;
+}
+  .quote-text {
+    text-align:center;
+    width:450px;
+    height:auto;
+    clear:both;
+    font-weight:500;
+    font-size:1.75em;
+  }
+
+  i{
+    font-size:1.0em;
+    margin-right: 0.4em;
+  }
+
+  .quote-author {
+    width:450px;
+    height:auto;
+    clear:both;
+    padding-top:20px;
+    font-size:1em;
+    text-align:right;
+  }
+
+  .buttons {
+    width:450px;
+    margin:auto;
+    display:block;
+  }
+    .button {
+      height:38px;
+      border:none;
+      border-radius:3px;
+      color:#fff;
+      background-color:#333;
+      outline:none;
+      font-size:0.85em;
+      padding: 8px 18px 6px 18px;
+      margin-top:30px;
+      opacity:1;
+      cursor:pointer;
+    }
+    .button:hover {
+        opacity:0.9;
+      }
+
+#tweet-quote, #tumblr-quote {
+        float:left;
+        padding:0px;
+        padding-top:8px;
+        text-align:center;
+        font-size:1.2em;
+        margin-right:5px;
+        height:30px;
+        width:40px;
+  }
